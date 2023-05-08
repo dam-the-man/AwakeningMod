@@ -83,6 +83,8 @@ public class AwakeningModVariables {
 			clone.Aura = original.Aura;
 			clone.Pure = original.Pure;
 			clone.Vampirism = original.Vampirism;
+			clone.MaxAura = original.MaxAura;
+			clone.MaxHealth = original.MaxHealth;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -134,6 +136,8 @@ public class AwakeningModVariables {
 		public double Aura = 0;
 		public double Pure = 0;
 		public double Vampirism = 0;
+		public double MaxAura = 0;
+		public double MaxHealth = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -157,6 +161,8 @@ public class AwakeningModVariables {
 			nbt.putDouble("Aura", Aura);
 			nbt.putDouble("Pure", Pure);
 			nbt.putDouble("Vampirism", Vampirism);
+			nbt.putDouble("MaxAura", MaxAura);
+			nbt.putDouble("MaxHealth", MaxHealth);
 			return nbt;
 		}
 
@@ -177,6 +183,8 @@ public class AwakeningModVariables {
 			Aura = nbt.getDouble("Aura");
 			Pure = nbt.getDouble("Pure");
 			Vampirism = nbt.getDouble("Vampirism");
+			MaxAura = nbt.getDouble("MaxAura");
+			MaxHealth = nbt.getDouble("MaxHealth");
 		}
 	}
 
@@ -216,6 +224,8 @@ public class AwakeningModVariables {
 					variables.Aura = message.data.Aura;
 					variables.Pure = message.data.Pure;
 					variables.Vampirism = message.data.Vampirism;
+					variables.MaxAura = message.data.MaxAura;
+					variables.MaxHealth = message.data.MaxHealth;
 				}
 			});
 			context.setPacketHandled(true);
