@@ -50,6 +50,45 @@
           "src/main/java/net/mcreator/awakening/potion/BloodMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Plasma",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/PlasmaMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Storm",
+      "type": "potioneffect",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/StormMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Dust",
+      "type": "potioneffect",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/DustMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -59,7 +98,10 @@
       "effect.awakening.fire": "Aura",
       "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
+      "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
+      "effect.awakening.dust": "Aura",
+      "effect.awakening.storm": "Aura",
       "effect.awakening.blood": "Aura"
     }
   },
