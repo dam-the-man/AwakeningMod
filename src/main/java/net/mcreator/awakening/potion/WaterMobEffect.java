@@ -1,15 +1,15 @@
 
 package net.mcreator.awakening.potion;
 
-public class CrystalMobEffect extends MobEffect {
+public class WaterMobEffect extends MobEffect {
 
-	public CrystalMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -56164);
+	public WaterMobEffect() {
+		super(MobEffectCategory.BENEFICIAL, -10066177);
 	}
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.awakening.crystal";
+		return "effect.awakening.water";
 	}
 
 	@Override

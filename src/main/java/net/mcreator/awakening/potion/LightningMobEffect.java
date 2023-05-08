@@ -1,15 +1,15 @@
 
 package net.mcreator.awakening.potion;
 
-public class CrystalMobEffect extends MobEffect {
+public class LightningMobEffect extends MobEffect {
 
-	public CrystalMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -56164);
+	public LightningMobEffect() {
+		super(MobEffectCategory.BENEFICIAL, -16724788);
 	}
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.awakening.crystal";
+		return "effect.awakening.lightning";
 	}
 
 	@Override
