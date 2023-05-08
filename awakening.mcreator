@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gay",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/gay.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.gay.descr": "you are gay now",
+      "advancements.gay.title": "Gay"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "awakening",
+    "modName": "Awakening",
+    "version": "1.0.0",
+    "author": "lefar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.awakening",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
