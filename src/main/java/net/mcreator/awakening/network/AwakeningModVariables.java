@@ -119,10 +119,10 @@ public class AwakeningModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double Strenght = 1.0;
-		public double Agility = 1.0;
-		public double Aura = 1.0;
-		public double Vitality = 1.0;
+		public double Strenght = 0;
+		public double Agility = 0;
+		public double Aura = 0;
+		public double Vitality = 0;
 		public double Soul = 0;
 		public double Willpower = 0;
 		public double Demonic = 0;

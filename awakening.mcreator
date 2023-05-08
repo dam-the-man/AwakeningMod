@@ -3,7 +3,6 @@
     {
       "name": "Gay",
       "type": "achievement",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -147,6 +146,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gaydar",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaydar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/GaydarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Steel",
+      "type": "potioneffect",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/SteelMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/CrystalMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -154,25 +197,25 @@
       "name": "Strenght",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Agility",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Aura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Vitality",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Soul",
@@ -247,7 +290,9 @@
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "effect.awakening.fire": "Aura",
+      "effect.awakening.crystal": "Aura",
       "effect.awakening.ice": "Aura",
+      "effect.awakening.steel": "Aura",
       "advancements.gay.descr": "you are gay now",
       "effect.awakening.lightning": "Aura",
       "effect.awakening.wind": "Aura",
