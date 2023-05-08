@@ -1,8 +1,10 @@
 
 package net.mcreator.awakening.potion;
 
-public class LightningMobEffect extends MobEffect {
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+public class LightningMobEffect extends MobEffect {
 	public LightningMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -16724788);
 	}
@@ -16,5 +18,4 @@ public class LightningMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }

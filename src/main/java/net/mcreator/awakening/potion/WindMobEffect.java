@@ -1,8 +1,10 @@
 
 package net.mcreator.awakening.potion;
 
-public class WindMobEffect extends MobEffect {
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+public class WindMobEffect extends MobEffect {
 	public WindMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -1);
 	}
@@ -16,5 +18,4 @@ public class WindMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }

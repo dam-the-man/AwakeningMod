@@ -141,6 +141,24 @@
           "src/main/java/net/mcreator/awakening/potion/LightningMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Gaydar",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaydar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/GaydarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -241,11 +259,15 @@
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "effect.awakening.fire": "Aura",
+      "effect.awakening.crystal": "Aura",
       "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
+      "effect.awakening.lightning": "Aura",
+      "effect.awakening.wind": "Aura",
       "effect.awakening.dust": "Aura",
       "effect.awakening.storm": "Aura",
-      "effect.awakening.blood": "Aura"
+      "effect.awakening.blood": "Aura",
+      "effect.awakening.water": "Aura"
     }
   },
   "foldersRoot": {

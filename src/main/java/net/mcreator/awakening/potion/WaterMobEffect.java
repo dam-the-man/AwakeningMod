@@ -1,8 +1,10 @@
 
 package net.mcreator.awakening.potion;
 
-public class WaterMobEffect extends MobEffect {
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+public class WaterMobEffect extends MobEffect {
 	public WaterMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -10066177);
 	}
@@ -16,5 +18,4 @@ public class WaterMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }
