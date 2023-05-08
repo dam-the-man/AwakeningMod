@@ -13,6 +13,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.mcreator.awakening.potion.WindMobEffect;
 import net.mcreator.awakening.potion.WaterMobEffect;
 import net.mcreator.awakening.potion.StormMobEffect;
+import net.mcreator.awakening.potion.SteelMobEffect;
 import net.mcreator.awakening.potion.PlasmaMobEffect;
 import net.mcreator.awakening.potion.LightningMobEffect;
 import net.mcreator.awakening.potion.IceMobEffect;
@@ -34,4 +35,5 @@ public class AwakeningModMobEffects {
 	public static final RegistryObject<MobEffect> LIGHTNING = REGISTRY.register("lightning", () -> new LightningMobEffect());
 	public static final RegistryObject<MobEffect> WATER = REGISTRY.register("water", () -> new WaterMobEffect());
 	public static final RegistryObject<MobEffect> WIND = REGISTRY.register("wind", () -> new WindMobEffect());
+	public static final RegistryObject<MobEffect> STEEL = REGISTRY.register("steel", () -> new SteelMobEffect());
 }
