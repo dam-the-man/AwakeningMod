@@ -3,7 +3,6 @@
     {
       "name": "Gay",
       "type": "achievement",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -146,7 +145,6 @@
     {
       "name": "Gaydar",
       "type": "procedure",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gaydar",
@@ -176,28 +174,21 @@
       }
     },
     {
-      "name": "Astral",
-      "type": "potioneffect",
-      "sortid": 11,
+      "name": "SoulUnlock",
+      "type": "procedure",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astral",
+      "registry_name": "soul_unlock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/awakening/potion/AstralMobEffect.java"
-        ]
-      }
-    },
-    {
-      "name": "Abyss",
-      "type": "potioneffect",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abyss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/awakening/potion/AbyssMobEffect.java"
+          "src/main/java/net/mcreator/awakening/procedures/SoulUnlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     },
@@ -215,19 +206,44 @@
       }
     },
     {
-      "name": "SoulUnlock",
-      "type": "procedure",
-      "sortid": 15,
+      "name": "Abyss",
+      "type": "potioneffect",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_unlock",
+      "registry_name": "abyss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/awakening/procedures/SoulUnlockProcedure.java"
+          "src/main/java/net/mcreator/awakening/potion/AbyssMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Astral",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/AstralMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Stats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/StatsProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -341,13 +357,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "effect.awakening.abyss": "Aura",
-      "advancements.true_soul.title": "True Soul",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
-      "effect.awakening.astral": "Aura",
       "effect.awakening.fire": "Aura",
-      "advancements.true_soul.descr": "Unlock the true qualities of your soul",
       "effect.awakening.crystal": "Aura",
       "effect.awakening.ice": "Aura",
       "effect.awakening.steel": "Aura",
