@@ -3,6 +3,7 @@
     {
       "name": "Gay",
       "type": "achievement",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -128,6 +129,24 @@
           "src/main/java/net/mcreator/awakening/potion/WindMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Stats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/StatsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -135,25 +154,25 @@
       "name": "Strenght",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "1.0"
     },
     {
       "name": "Agility",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "1.0"
     },
     {
       "name": "Aura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "1.0"
     },
     {
       "name": "Vitality",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "1.0"
     },
     {
       "name": "Soul",
@@ -225,12 +244,12 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "effect.awakening.plasma": "Aura",
+      "advancements.gay.title": "Gay",
       "effect.awakening.fire": "Aura",
       "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
       "effect.awakening.lightning": "Aura",
-      "effect.awakening.plasma": "Aura",
-      "advancements.gay.title": "Gay",
       "effect.awakening.wind": "Aura",
       "effect.awakening.dust": "Aura",
       "effect.awakening.storm": "Aura",
