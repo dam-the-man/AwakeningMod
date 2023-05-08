@@ -89,6 +89,19 @@
           "src/main/java/net/mcreator/awakening/potion/DustMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Crystal",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/CrystalMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -96,6 +109,7 @@
   "language_map": {
     "en_us": {
       "effect.awakening.fire": "Aura",
+      "effect.awakening.crystal": "Aura",
       "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
       "effect.awakening.plasma": "Aura",

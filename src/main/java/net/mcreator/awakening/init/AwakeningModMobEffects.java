@@ -15,6 +15,7 @@ import net.mcreator.awakening.potion.PlasmaMobEffect;
 import net.mcreator.awakening.potion.IceMobEffect;
 import net.mcreator.awakening.potion.FireMobEffect;
 import net.mcreator.awakening.potion.DustMobEffect;
+import net.mcreator.awakening.potion.CrystalMobEffect;
 import net.mcreator.awakening.potion.BloodMobEffect;
 import net.mcreator.awakening.AwakeningMod;
 
@@ -26,4 +27,5 @@ public class AwakeningModMobEffects {
 	public static final RegistryObject<MobEffect> PLASMA = REGISTRY.register("plasma", () -> new PlasmaMobEffect());
 	public static final RegistryObject<MobEffect> STORM = REGISTRY.register("storm", () -> new StormMobEffect());
 	public static final RegistryObject<MobEffect> DUST = REGISTRY.register("dust", () -> new DustMobEffect());
+	public static final RegistryObject<MobEffect> CRYSTAL = REGISTRY.register("crystal", () -> new CrystalMobEffect());
 }
