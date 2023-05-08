@@ -10,8 +10,11 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.awakening.potion.WindMobEffect;
+import net.mcreator.awakening.potion.WaterMobEffect;
 import net.mcreator.awakening.potion.StormMobEffect;
 import net.mcreator.awakening.potion.PlasmaMobEffect;
+import net.mcreator.awakening.potion.LightningMobEffect;
 import net.mcreator.awakening.potion.IceMobEffect;
 import net.mcreator.awakening.potion.FireMobEffect;
 import net.mcreator.awakening.potion.DustMobEffect;
@@ -26,4 +29,7 @@ public class AwakeningModMobEffects {
 	public static final RegistryObject<MobEffect> PLASMA = REGISTRY.register("plasma", () -> new PlasmaMobEffect());
 	public static final RegistryObject<MobEffect> STORM = REGISTRY.register("storm", () -> new StormMobEffect());
 	public static final RegistryObject<MobEffect> DUST = REGISTRY.register("dust", () -> new DustMobEffect());
+	public static final RegistryObject<MobEffect> LIGHTNING = REGISTRY.register("lightning", () -> new LightningMobEffect());
+	public static final RegistryObject<MobEffect> WATER = REGISTRY.register("water", () -> new WaterMobEffect());
+	public static final RegistryObject<MobEffect> WIND = REGISTRY.register("wind", () -> new WindMobEffect());
 }

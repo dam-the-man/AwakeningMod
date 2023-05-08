@@ -89,20 +89,153 @@
           "src/main/java/net/mcreator/awakening/potion/DustMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Lightning",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/LightningMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Water",
+      "type": "potioneffect",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/WaterMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Wind",
+      "type": "potioneffect",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/WindMobEffect.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Strenght",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Agility",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Aura",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Vitality",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Soul",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Willpower",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Demonic",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Pure",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Vampirism",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Swordsmanship",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Concentration",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Emission",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Transmutation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Manipulation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Domination",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "effect.awakening.fire": "Aura",
       "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
+      "effect.awakening.lightning": "Aura",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
+      "effect.awakening.wind": "Aura",
       "effect.awakening.dust": "Aura",
       "effect.awakening.storm": "Aura",
-      "effect.awakening.blood": "Aura"
+      "effect.awakening.blood": "Aura",
+      "effect.awakening.water": "Aura"
     }
   },
   "foldersRoot": {
