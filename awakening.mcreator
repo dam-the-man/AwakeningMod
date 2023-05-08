@@ -11,12 +11,25 @@
           "src/main/resources/data/awakening/advancements/gay.json"
         ]
       }
+    },
+    {
+      "name": "Fire",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/FireMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "effect.awakening.fire": "Aura",
       "advancements.gay.descr": "you are gay now",
       "advancements.gay.title": "Gay"
     }
