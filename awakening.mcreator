@@ -15,12 +15,39 @@
     {
       "name": "Fire",
       "type": "potioneffect",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/awakening/potion/FireMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Ice",
+      "type": "potioneffect",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/IceMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/BloodMobEffect.java"
         ]
       }
     }
@@ -30,8 +57,10 @@
   "language_map": {
     "en_us": {
       "effect.awakening.fire": "Aura",
+      "effect.awakening.ice": "Aura",
       "advancements.gay.descr": "you are gay now",
-      "advancements.gay.title": "Gay"
+      "advancements.gay.title": "Gay",
+      "effect.awakening.blood": "Aura"
     }
   },
   "foldersRoot": {

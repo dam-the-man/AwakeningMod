@@ -1,5 +1,7 @@
 {
   "effect.awakening.fire": "Aura",
+  "effect.awakening.ice": "Aura",
   "advancements.gay.descr": "you are gay now",
-  "advancements.gay.title": "Gay"
+  "advancements.gay.title": "Gay",
+  "effect.awakening.blood": "Aura"
 }

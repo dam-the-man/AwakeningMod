@@ -10,10 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.awakening.potion.IceMobEffect;
 import net.mcreator.awakening.potion.FireMobEffect;
+import net.mcreator.awakening.potion.BloodMobEffect;
 import net.mcreator.awakening.AwakeningMod;
 
 public class AwakeningModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, AwakeningMod.MODID);
+	public static final RegistryObject<MobEffect> ICE = REGISTRY.register("ice", () -> new IceMobEffect());
 	public static final RegistryObject<MobEffect> FIRE = REGISTRY.register("fire", () -> new FireMobEffect());
+	public static final RegistryObject<MobEffect> BLOOD = REGISTRY.register("blood", () -> new BloodMobEffect());
 }
