@@ -21,6 +21,8 @@ import net.mcreator.awakening.potion.FireMobEffect;
 import net.mcreator.awakening.potion.DustMobEffect;
 import net.mcreator.awakening.potion.CrystalMobEffect;
 import net.mcreator.awakening.potion.BloodMobEffect;
+import net.mcreator.awakening.potion.AstralMobEffect;
+import net.mcreator.awakening.potion.AbyssMobEffect;
 import net.mcreator.awakening.AwakeningMod;
 
 public class AwakeningModMobEffects {
@@ -36,4 +38,6 @@ public class AwakeningModMobEffects {
 	public static final RegistryObject<MobEffect> WATER = REGISTRY.register("water", () -> new WaterMobEffect());
 	public static final RegistryObject<MobEffect> WIND = REGISTRY.register("wind", () -> new WindMobEffect());
 	public static final RegistryObject<MobEffect> STEEL = REGISTRY.register("steel", () -> new SteelMobEffect());
+	public static final RegistryObject<MobEffect> ASTRAL = REGISTRY.register("astral", () -> new AstralMobEffect());
+	public static final RegistryObject<MobEffect> ABYSS = REGISTRY.register("abyss", () -> new AbyssMobEffect());
 }

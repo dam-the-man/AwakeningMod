@@ -132,7 +132,6 @@
     {
       "name": "Stats",
       "type": "procedure",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stats",
@@ -151,7 +150,6 @@
     {
       "name": "Gaydar",
       "type": "procedure",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gaydar",
@@ -190,6 +188,64 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/awakening/potion/CrystalMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulUnlock",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_unlock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/SoulUnlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrueSoul",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/true_soul.json"
+        ]
+      }
+    },
+    {
+      "name": "Abyss",
+      "type": "potioneffect",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/AbyssMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Astral",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/AstralMobEffect.java"
         ]
       }
     }
@@ -281,6 +337,18 @@
     },
     {
       "name": "Domination",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "MaxAura",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "MaxHealth",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"

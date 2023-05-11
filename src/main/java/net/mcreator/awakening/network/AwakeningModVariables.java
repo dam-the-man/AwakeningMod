@@ -83,6 +83,8 @@ public class AwakeningModVariables {
 			clone.Transmutation = original.Transmutation;
 			clone.Manipulation = original.Manipulation;
 			clone.Domination = original.Domination;
+			clone.MaxAura = original.MaxAura;
+			clone.MaxHealth = original.MaxHealth;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -134,6 +136,8 @@ public class AwakeningModVariables {
 		public double Transmutation = 0;
 		public double Manipulation = 0;
 		public double Domination = 0;
+		public double MaxAura = 0;
+		public double MaxHealth = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -157,6 +161,8 @@ public class AwakeningModVariables {
 			nbt.putDouble("Transmutation", Transmutation);
 			nbt.putDouble("Manipulation", Manipulation);
 			nbt.putDouble("Domination", Domination);
+			nbt.putDouble("MaxAura", MaxAura);
+			nbt.putDouble("MaxHealth", MaxHealth);
 			return nbt;
 		}
 
@@ -177,6 +183,8 @@ public class AwakeningModVariables {
 			Transmutation = nbt.getDouble("Transmutation");
 			Manipulation = nbt.getDouble("Manipulation");
 			Domination = nbt.getDouble("Domination");
+			MaxAura = nbt.getDouble("MaxAura");
+			MaxHealth = nbt.getDouble("MaxHealth");
 		}
 	}
 
@@ -216,6 +224,8 @@ public class AwakeningModVariables {
 					variables.Transmutation = message.data.Transmutation;
 					variables.Manipulation = message.data.Manipulation;
 					variables.Domination = message.data.Domination;
+					variables.MaxAura = message.data.MaxAura;
+					variables.MaxHealth = message.data.MaxHealth;
 				}
 			});
 			context.setPacketHandled(true);
