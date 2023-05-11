@@ -1,6 +1,7 @@
 {
   "advancements.ad_lightning.title": "Ad Lightning",
   "advancements.ad_blood.descr": "aura",
+  "advancements.aura_unlock_on_join.descr": "You feel some sort of power within ",
   "advancements.true_soul.title": "True Soul",
   "advancements.ad_ice.title": "Ad Lightning",
   "effect.awakening.plasma": "Aura",
@@ -26,6 +27,7 @@
   "effect.awakening.blood": "Aura",
   "effect.awakening.water": "Aura",
   "advancements.ad_water.descr": "aura",
+  "item.awakening.aura_item": "Aura",
   "effect.awakening.abyss": "Aura",
   "advancements.ad_dust.title": "Ad Lightning",
   "advancements.ad_water.title": "Ad Lightning",
@@ -40,6 +42,7 @@
   "advancements.ad_astral.descr": "aura",
   "advancements.ad_storm.descr": "aura",
   "effect.awakening.dust": "Aura",
+  "advancements.aura_unlock_on_join.title": "Aura user",
   "effect.awakening.storm": "Aura",
   "advancements.ad_astral.title": "Ad Lightning"
 }

@@ -138,7 +138,7 @@ public class AwakeningModVariables {
 		public double Transmutation = 0;
 		public double Manipulation = 0;
 		public double Domination = 0;
-		public double MaxAura = 0;
+		public double MaxAura = 0.0;
 		public double MaxHealth = 0;
 		public double karma = 0;
 		public double AuraType = 0;

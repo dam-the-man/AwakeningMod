@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.awakening.init.AwakeningModMobEffects;
+import net.mcreator.awakening.init.AwakeningModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,6 +44,8 @@ public class AwakeningMod {
 	public AwakeningMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AwakeningModItems.REGISTRY.register(bus);
 
 		AwakeningModMobEffects.REGISTRY.register(bus);
 

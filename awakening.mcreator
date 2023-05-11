@@ -456,6 +456,54 @@
         ]
       },
       "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AuraItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/item/AuraItemItem.java",
+          "src/main/resources/assets/awakening/models/item/aura_item.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AuraUnlockOnJoin",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_unlock_on_join",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/aura_unlock_on_join.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AuraTypeOnJoin",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_type_on_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/AuraTypeOnJoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AuraAdvancements"
     }
   ],
   "variable_elements": [
@@ -553,7 +601,7 @@
       "name": "MaxAura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "MaxHealth",
@@ -579,6 +627,7 @@
     "en_us": {
       "advancements.ad_lightning.title": "Ad Lightning",
       "advancements.ad_blood.descr": "aura",
+      "advancements.aura_unlock_on_join.descr": "You feel some sort of power within ",
       "advancements.true_soul.title": "True Soul",
       "advancements.ad_ice.title": "Ad Lightning",
       "effect.awakening.plasma": "Aura",
@@ -604,6 +653,7 @@
       "effect.awakening.blood": "Aura",
       "effect.awakening.water": "Aura",
       "advancements.ad_water.descr": "aura",
+      "item.awakening.aura_item": "Aura",
       "effect.awakening.abyss": "Aura",
       "advancements.ad_dust.title": "Ad Lightning",
       "advancements.ad_water.title": "Ad Lightning",
@@ -618,6 +668,7 @@
       "advancements.ad_astral.descr": "aura",
       "advancements.ad_storm.descr": "aura",
       "effect.awakening.dust": "Aura",
+      "advancements.aura_unlock_on_join.title": "Aura user",
       "effect.awakening.storm": "Aura",
       "advancements.ad_astral.title": "Ad Lightning"
     }
