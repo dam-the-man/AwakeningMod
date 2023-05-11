@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_wind": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

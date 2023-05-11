@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_crystal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_plasma": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

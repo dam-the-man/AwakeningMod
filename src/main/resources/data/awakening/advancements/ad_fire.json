@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_fire": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

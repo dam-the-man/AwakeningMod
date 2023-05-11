@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_steel": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
