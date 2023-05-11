@@ -264,7 +264,7 @@
       "name": "Strenght",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Emission",
@@ -288,7 +288,7 @@
       "name": "Demonic",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0.0"
+      "value": "0"
     },
     {
       "name": "Domination",
@@ -330,13 +330,13 @@
       "name": "Aura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0"
     },
     {
       "name": "Pure",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0.0"
+      "value": "0"
     },
     {
       "name": "Vampirism",
@@ -348,13 +348,13 @@
       "name": "MaxAura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "10.0"
+      "value": "0"
     },
     {
       "name": "MaxHealth",
       "type": "number",
       "scope": "player_persistent",
-      "value": "20.0"
+      "value": "0"
     }
   ],
   "sound_elements": [],

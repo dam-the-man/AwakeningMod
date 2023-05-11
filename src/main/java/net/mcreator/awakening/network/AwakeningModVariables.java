@@ -122,22 +122,22 @@ public class AwakeningModVariables {
 
 	public static class PlayerVariables {
 		public double Swordsmanship = 0;
-		public double Strenght = 1.0;
+		public double Strenght = 0;
 		public double Emission = 0;
 		public double Concentration = 0;
 		public double Vitality = 0;
-		public double Demonic = 0.0;
+		public double Demonic = 0;
 		public double Domination = 0;
 		public double Soul = 0;
 		public double Manipulation = 0;
 		public double Agility = 0;
 		public double Transmutation = 0;
 		public double Willpower = 0;
-		public double Aura = 1.0;
-		public double Pure = 0.0;
+		public double Aura = 0;
+		public double Pure = 0;
 		public double Vampirism = 0;
-		public double MaxAura = 10.0;
-		public double MaxHealth = 20.0;
+		public double MaxAura = 0;
+		public double MaxHealth = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
