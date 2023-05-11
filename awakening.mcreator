@@ -292,6 +292,7 @@
     {
       "name": "AdWater",
       "type": "achievement",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_water",
@@ -305,6 +306,7 @@
     {
       "name": "AdSteel",
       "type": "achievement",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_steel",
@@ -318,6 +320,7 @@
     {
       "name": "AdCrystal",
       "type": "achievement",
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_crystal",
@@ -331,6 +334,7 @@
     {
       "name": "AdAstral",
       "type": "achievement",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_astral",
@@ -344,6 +348,7 @@
     {
       "name": "AdAbyss",
       "type": "achievement",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_abyss",
@@ -357,6 +362,7 @@
     {
       "name": "AdBlood",
       "type": "achievement",
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_blood",
@@ -370,6 +376,7 @@
     {
       "name": "AdIce",
       "type": "achievement",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_ice",
@@ -383,6 +390,7 @@
     {
       "name": "AdDust",
       "type": "achievement",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_dust",
@@ -396,6 +404,7 @@
     {
       "name": "AdWind",
       "type": "achievement",
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_wind",
@@ -409,6 +418,7 @@
     {
       "name": "AdPlasma",
       "type": "achievement",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_plasma",
@@ -422,6 +432,7 @@
     {
       "name": "AdStorm",
       "type": "achievement",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_storm",
@@ -435,6 +446,7 @@
     {
       "name": "AdFire",
       "type": "achievement",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ad_fire",
