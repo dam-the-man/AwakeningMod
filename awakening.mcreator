@@ -3,6 +3,7 @@
     {
       "name": "Gay",
       "type": "achievement",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -132,7 +133,8 @@
     {
       "name": "Stats",
       "type": "procedure",
-      "compiles": true,
+      "sortid": 18,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "stats",
       "metadata": {
@@ -150,7 +152,8 @@
     {
       "name": "Gaydar",
       "type": "procedure",
-      "compiles": true,
+      "sortid": 17,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gaydar",
       "metadata": {
@@ -357,8 +360,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.true_soul.title": "True Soul",
       "effect.awakening.abyss": "Aura",
+      "advancements.true_soul.title": "True Soul",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "effect.awakening.astral": "Aura",
