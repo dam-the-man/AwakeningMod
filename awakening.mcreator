@@ -3,7 +3,6 @@
     {
       "name": "Gay",
       "type": "achievement",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -133,7 +132,6 @@
     {
       "name": "Stats",
       "type": "procedure",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stats",
@@ -152,7 +150,6 @@
     {
       "name": "Gaydar",
       "type": "procedure",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gaydar",
