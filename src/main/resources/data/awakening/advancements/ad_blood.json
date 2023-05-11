@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_blood": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

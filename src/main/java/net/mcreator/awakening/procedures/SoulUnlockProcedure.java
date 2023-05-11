@@ -32,7 +32,15 @@ public class SoulUnlockProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+		if ((entity.getCapability(AwakeningModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AwakeningModVariables.PlayerVariables())).Soul == 0) {
+			{
+				double _setval = (entity.getCapability(AwakeningModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AwakeningModVariables.PlayerVariables())).Soul + 0.1;
+				entity.getCapability(AwakeningModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.Soul = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		} else if (entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 				? _plr.getAdvancements().getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("minecraft:adventure/totem_of_undying"))).isDone()
 				: false) {
 			if (entity instanceof ServerPlayer _player) {

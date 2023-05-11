@@ -274,6 +274,188 @@
           }
         ]
       }
+    },
+    {
+      "name": "AdWater",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_water.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdStorm",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_storm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_storm.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdSteel",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_steel.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdAbyss",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_abyss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_abyss.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdIce",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_ice.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdCrystal",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_crystal.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdAstral",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_astral",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_astral.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdFire",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_fire.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdLightning",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_lightning.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdBlood",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_blood.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdDust",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_dust.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdPlasma",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_plasma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_plasma.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
+    },
+    {
+      "name": "AdWind",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ad_wind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/awakening/advancements/ad_wind.json"
+        ]
+      },
+      "path": "~/AuraAdvancements"
     }
   ],
   "variable_elements": [
@@ -378,33 +560,76 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "karma",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "AuraType",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "effect.awakening.abyss": "Aura",
+      "advancements.ad_lightning.title": "Ad Lightning",
+      "advancements.ad_blood.descr": "aura",
       "advancements.true_soul.title": "True Soul",
+      "advancements.ad_ice.title": "Ad Lightning",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "effect.awakening.astral": "Aura",
-      "effect.awakening.fire": "Aura",
+      "advancements.ad_lightning.descr": "aura",
+      "advancements.ad_blood.title": "Ad Lightning",
+      "advancements.ad_ice.descr": "aura",
       "advancements.true_soul.descr": "Unlock the true qualities of your soul",
-      "effect.awakening.crystal": "Aura",
-      "effect.awakening.ice": "Aura",
+      "advancements.ad_steel.title": "Ad Lightning",
+      "advancements.ad_abyss.descr": "aura",
+      "advancements.ad_dust.descr": "aura",
       "effect.awakening.steel": "Aura",
       "advancements.gay.descr": "you are gay now",
-      "effect.awakening.lightning": "Aura",
+      "advancements.ad_wind.descr": "aura",
+      "advancements.ad_fire.title": "Ad Lightning",
+      "advancements.ad_crystal.descr": "aura",
+      "advancements.ad_wind.title": "Ad Lightning",
+      "advancements.ad_fire.descr": "aura",
       "effect.awakening.wind": "Aura",
+      "advancements.ad_abyss.title": "Ad Lightning",
+      "advancements.ad_steel.descr": "aura",
+      "effect.awakening.blood": "Aura",
+      "effect.awakening.water": "Aura",
+      "advancements.ad_water.descr": "aura",
+      "effect.awakening.abyss": "Aura",
+      "advancements.ad_dust.title": "Ad Lightning",
+      "advancements.ad_water.title": "Ad Lightning",
+      "advancements.ad_crystal.title": "Ad Lightning",
+      "advancements.ad_plasma.descr": "aura",
+      "advancements.ad_plasma.title": "Ad Lightning",
+      "effect.awakening.fire": "Aura",
+      "effect.awakening.crystal": "Aura",
+      "effect.awakening.ice": "Aura",
+      "effect.awakening.lightning": "Aura",
+      "advancements.ad_storm.title": "Ad Lightning",
+      "advancements.ad_astral.descr": "aura",
+      "advancements.ad_storm.descr": "aura",
       "effect.awakening.dust": "Aura",
       "effect.awakening.storm": "Aura",
-      "effect.awakening.blood": "Aura",
-      "effect.awakening.water": "Aura"
+      "advancements.ad_astral.title": "Ad Lightning"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "AuraAdvancements",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "awakening",

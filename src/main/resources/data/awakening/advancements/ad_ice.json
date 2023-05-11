@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_ice": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "ad_storm": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
