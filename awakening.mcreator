@@ -92,15 +92,15 @@
       }
     },
     {
-      "name": "Crystal",
+      "name": "Lightning",
       "type": "potioneffect",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystal",
+      "registry_name": "lightning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/awakening/potion/CrystalMobEffect.java"
+          "src/main/java/net/mcreator/awakening/potion/LightningMobEffect.java"
         ]
       }
     },
@@ -131,15 +131,25 @@
       }
     },
     {
-      "name": "Lightning",
-      "type": "potioneffect",
-      "sortid": 7,
+      "name": "Stats",
+      "type": "procedure",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lightning",
+      "registry_name": "stats",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/awakening/potion/LightningMobEffect.java"
+          "src/main/java/net/mcreator/awakening/procedures/StatsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
         ]
       }
     },
@@ -172,6 +182,19 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/awakening/potion/SteelMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/potion/CrystalMobEffect.java"
         ]
       }
     },
@@ -234,19 +257,19 @@
       }
     },
     {
-      "name": "Stats",
+      "name": "Agilitystat",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stats",
+      "registry_name": "agilitystat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/awakening/procedures/StatsProcedure.java"
+          "src/main/java/net/mcreator/awakening/procedures/AgilitystatProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "sourceentity",
+            "name": "entity",
             "type": "entity"
           }
         ]
@@ -425,55 +448,7 @@
   ],
   "variable_elements": [
     {
-      "name": "Swordsmanship",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
       "name": "Strenght",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Emission",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Concentration",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Vitality",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Demonic",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Domination",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Soul",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Manipulation",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -485,7 +460,19 @@
       "value": "0"
     },
     {
-      "name": "Transmutation",
+      "name": "Aura",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Vitality",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Soul",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -497,7 +484,7 @@
       "value": "0"
     },
     {
-      "name": "Aura",
+      "name": "Demonic",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -510,6 +497,42 @@
     },
     {
       "name": "Vampirism",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Swordsmanship",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Concentration",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Emission",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Transmutation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Manipulation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Domination",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
