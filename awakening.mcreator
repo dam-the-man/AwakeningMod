@@ -132,6 +132,7 @@
     {
       "name": "Stats",
       "type": "procedure",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stats",
@@ -150,6 +151,7 @@
     {
       "name": "Gaydar",
       "type": "procedure",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gaydar",
