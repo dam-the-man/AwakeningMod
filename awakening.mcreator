@@ -143,8 +143,12 @@
         ],
         "dependencies": [
           {
-            "name": "sourceentity",
+            "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -249,6 +253,25 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/awakening/potion/AstralMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Agilitystat",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agilitystat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/AgilitystatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
@@ -360,8 +383,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.true_soul.title": "True Soul",
       "effect.awakening.abyss": "Aura",
+      "advancements.true_soul.title": "True Soul",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "effect.awakening.astral": "Aura",
