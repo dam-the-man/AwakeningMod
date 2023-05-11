@@ -1,8 +1,10 @@
 
 package net.mcreator.awakening.potion;
 
-public class AbyssMobEffect extends MobEffect {
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+public class AbyssMobEffect extends MobEffect {
 	public AbyssMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -16777216);
 	}
@@ -16,5 +18,4 @@ public class AbyssMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }
