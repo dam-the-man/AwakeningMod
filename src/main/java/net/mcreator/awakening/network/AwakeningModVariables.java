@@ -83,10 +83,10 @@ public class AwakeningModVariables {
 			clone.Transmutation = original.Transmutation;
 			clone.Manipulation = original.Manipulation;
 			clone.Domination = original.Domination;
-			clone.MaxAura = original.MaxAura;
 			clone.MaxHealth = original.MaxHealth;
 			clone.karma = original.karma;
 			clone.AuraType = original.AuraType;
+			clone.MaxAura = original.MaxAura;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -138,10 +138,10 @@ public class AwakeningModVariables {
 		public double Transmutation = 0;
 		public double Manipulation = 0;
 		public double Domination = 0;
-		public double MaxAura = 0.0;
 		public double MaxHealth = 0;
 		public double karma = 0;
 		public double AuraType = 0;
+		public double MaxAura = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -165,10 +165,10 @@ public class AwakeningModVariables {
 			nbt.putDouble("Transmutation", Transmutation);
 			nbt.putDouble("Manipulation", Manipulation);
 			nbt.putDouble("Domination", Domination);
-			nbt.putDouble("MaxAura", MaxAura);
 			nbt.putDouble("MaxHealth", MaxHealth);
 			nbt.putDouble("karma", karma);
 			nbt.putDouble("AuraType", AuraType);
+			nbt.putDouble("MaxAura", MaxAura);
 			return nbt;
 		}
 
@@ -189,10 +189,10 @@ public class AwakeningModVariables {
 			Transmutation = nbt.getDouble("Transmutation");
 			Manipulation = nbt.getDouble("Manipulation");
 			Domination = nbt.getDouble("Domination");
-			MaxAura = nbt.getDouble("MaxAura");
 			MaxHealth = nbt.getDouble("MaxHealth");
 			karma = nbt.getDouble("karma");
 			AuraType = nbt.getDouble("AuraType");
+			MaxAura = nbt.getDouble("MaxAura");
 		}
 	}
 
@@ -232,10 +232,10 @@ public class AwakeningModVariables {
 					variables.Transmutation = message.data.Transmutation;
 					variables.Manipulation = message.data.Manipulation;
 					variables.Domination = message.data.Domination;
-					variables.MaxAura = message.data.MaxAura;
 					variables.MaxHealth = message.data.MaxHealth;
 					variables.karma = message.data.karma;
 					variables.AuraType = message.data.AuraType;
+					variables.MaxAura = message.data.MaxAura;
 				}
 			});
 			context.setPacketHandled(true);

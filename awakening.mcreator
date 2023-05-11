@@ -598,12 +598,6 @@
       "value": "0"
     },
     {
-      "name": "MaxAura",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0.0"
-    },
-    {
       "name": "MaxHealth",
       "type": "number",
       "scope": "player_persistent",
@@ -617,6 +611,12 @@
     },
     {
       "name": "AuraType",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "MaxAura",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
