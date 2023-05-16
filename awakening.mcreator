@@ -287,7 +287,7 @@
           "src/main/resources/data/awakening/advancements/ad_water.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdStorm",
@@ -301,7 +301,7 @@
           "src/main/resources/data/awakening/advancements/ad_storm.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdSteel",
@@ -315,7 +315,7 @@
           "src/main/resources/data/awakening/advancements/ad_steel.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdAbyss",
@@ -329,7 +329,7 @@
           "src/main/resources/data/awakening/advancements/ad_abyss.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdIce",
@@ -343,7 +343,7 @@
           "src/main/resources/data/awakening/advancements/ad_ice.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdCrystal",
@@ -357,7 +357,7 @@
           "src/main/resources/data/awakening/advancements/ad_crystal.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdAstral",
@@ -371,7 +371,7 @@
           "src/main/resources/data/awakening/advancements/ad_astral.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdFire",
@@ -385,7 +385,7 @@
           "src/main/resources/data/awakening/advancements/ad_fire.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdLightning",
@@ -399,7 +399,7 @@
           "src/main/resources/data/awakening/advancements/ad_lightning.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdBlood",
@@ -413,7 +413,7 @@
           "src/main/resources/data/awakening/advancements/ad_blood.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdDust",
@@ -427,7 +427,7 @@
           "src/main/resources/data/awakening/advancements/ad_dust.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdPlasma",
@@ -441,7 +441,7 @@
           "src/main/resources/data/awakening/advancements/ad_plasma.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AdWind",
@@ -455,7 +455,7 @@
           "src/main/resources/data/awakening/advancements/ad_wind.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AuraItem",
@@ -469,7 +469,7 @@
           "src/main/resources/assets/awakening/models/item/aura_item.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AuraUnlockOnJoin",
@@ -483,7 +483,7 @@
           "src/main/resources/data/awakening/advancements/aura_unlock_on_join.json"
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
     },
     {
       "name": "AuraTypeOnJoin",
@@ -503,7 +503,27 @@
           }
         ]
       },
-      "path": "~/AuraAdvancements"
+      "path": "~/Aura"
+    },
+    {
+      "name": "AuraEffect",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/AuraEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aura"
     }
   ],
   "variable_elements": [
@@ -677,7 +697,7 @@
     "name": "~",
     "children": [
       {
-        "name": "AuraAdvancements",
+        "name": "Aura",
         "children": []
       }
     ]
