@@ -524,6 +524,31 @@
         ]
       },
       "path": "~/Aura"
+    },
+    {
+      "name": "OpenSS",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_ss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/network/OpenSSMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "StatsScreen",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/world/inventory/StatsScreenMenu.java",
+          "src/main/java/net/mcreator/awakening/client/gui/StatsScreenScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -621,7 +646,7 @@
       "name": "MaxHealth",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "20.0"
     },
     {
       "name": "karma",
@@ -639,7 +664,7 @@
       "name": "MaxAura",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "10.0"
     }
   ],
   "sound_elements": [],
@@ -679,6 +704,7 @@
       "advancements.ad_water.title": "Ad Lightning",
       "advancements.ad_crystal.title": "Ad Lightning",
       "advancements.ad_plasma.descr": "aura",
+      "key.awakening.open_ss": "Open Stats Screen",
       "advancements.ad_plasma.title": "Ad Lightning",
       "effect.awakening.fire": "Aura",
       "effect.awakening.crystal": "Aura",
