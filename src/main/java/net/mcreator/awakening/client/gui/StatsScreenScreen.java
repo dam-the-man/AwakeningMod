@@ -5,6 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
@@ -29,7 +30,7 @@ public class StatsScreenScreen extends AbstractContainerScreen<StatsScreenMenu> 
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 276;
+		this.imageWidth = 200;
 		this.imageHeight = 176;
 	}
 
@@ -68,6 +69,14 @@ public class StatsScreenScreen extends AbstractContainerScreen<StatsScreenMenu> 
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_aura"), 8, 11, -16750900);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_e"), 72, 12, -65536);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_vitality"), 8, 25, -3407821);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_e1"), 72, 25, -65536);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_agility"), 8, 40, -16738048);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_e2"), 72, 40, -65536);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_strength"), 7, 54, -16776961);
+		this.font.draw(poseStack, new TranslatableComponent("gui.awakening.stats_screen.label_e3"), 72, 53, -65536);
 	}
 
 	@Override
