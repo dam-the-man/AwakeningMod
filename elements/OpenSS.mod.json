@@ -4,9 +4,6 @@
   "definition": {
     "triggerKey": "O",
     "keyBindingName": "Open Stats Screen",
-    "keyBindingCategoryKey": "misc",
-    "onKeyPressed": {
-      "name": "OpenStatScreen"
-    }
+    "keyBindingCategoryKey": "ui"
   }
 }
