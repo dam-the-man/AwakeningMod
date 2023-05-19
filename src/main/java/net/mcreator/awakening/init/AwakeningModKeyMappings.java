@@ -23,7 +23,7 @@ import net.mcreator.awakening.AwakeningMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class AwakeningModKeyMappings {
 	public static final KeyMapping AURAACTIVATION = new KeyMapping("key.awakening.auraactivation", GLFW.GLFW_KEY_R, "key.categories.misc");
-	public static final KeyMapping OPEN_SS = new KeyMapping("key.awakening.open_ss", GLFW.GLFW_KEY_O, "key.categories.misc");
+	public static final KeyMapping OPEN_SS = new KeyMapping("key.awakening.open_ss", GLFW.GLFW_KEY_O, "key.categories.ui");
 
 	@SubscribeEvent
 	public static void registerKeyBindings(FMLClientSetupEvent event) {
