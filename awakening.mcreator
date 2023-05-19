@@ -528,6 +528,7 @@
     {
       "name": "OpenSS",
       "type": "keybind",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_ss",
@@ -584,6 +585,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "Fireaura",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireaura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/FireauraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Auraworks"
+    },
+    {
+      "name": "Auraactivate",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auraactivate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/procedures/AuraactivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aura"
+    },
+    {
+      "name": "Auraactivation",
+      "type": "keybind",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auraactivation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/awakening/network/AuraactivationMessage.java"
+        ]
+      },
+      "path": "~/Aura"
     }
   ],
   "variable_elements": [
@@ -705,16 +760,16 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.ad_lightning.title": "Ad Lightning",
       "advancements.ad_blood.descr": "aura",
+      "advancements.ad_lightning.title": "Ad Lightning",
       "advancements.true_soul.title": "True Soul",
       "gui.awakening.stats_screen.label_aura": "Aura",
       "effect.awakening.plasma": "Aura",
       "advancements.gay.title": "Gay",
       "advancements.ad_lightning.descr": "aura",
       "advancements.ad_blood.title": "Ad Lightning",
-      "advancements.true_soul.descr": "Unlock the true qualities of your soul",
       "gui.awakening.stats_screen.label_e": "E",
+      "advancements.true_soul.descr": "Unlock the true qualities of your soul",
       "advancements.ad_abyss.descr": "aura",
       "advancements.ad_dust.descr": "aura",
       "effect.awakening.steel": "Aura",
@@ -727,8 +782,8 @@
       "gui.awakening.stats_screen.label_e2": "E",
       "gui.awakening.stats_screen.label_e3": "E",
       "gui.awakening.stats_screen.label_strength": "Strength",
-      "item.awakening.aura_item": "Aura",
       "gui.awakening.stats_screen.label_vitality": "Vitality",
+      "item.awakening.aura_item": "Aura",
       "advancements.ad_dust.title": "Ad Lightning",
       "advancements.ad_water.title": "Ad Lightning",
       "advancements.ad_crystal.title": "Ad Lightning",
@@ -753,6 +808,7 @@
       "effect.awakening.water": "Aura",
       "advancements.ad_water.descr": "aura",
       "effect.awakening.abyss": "Aura",
+      "key.awakening.auraactivation": "Auraactivation",
       "key.awakening.open_ss": "Open Stats Screen",
       "advancements.ad_plasma.title": "Ad Lightning",
       "effect.awakening.ice": "Aura",
@@ -767,6 +823,10 @@
     "children": [
       {
         "name": "Aura",
+        "children": []
+      },
+      {
+        "name": "Auraworks",
         "children": []
       }
     ]
