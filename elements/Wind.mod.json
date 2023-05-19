@@ -5,13 +5,13 @@
     "effectName": "Aura",
     "icon": "aura.png",
     "color": {
-      "value": -1,
+      "value": -3355444,
       "falpha": 0.0
     },
     "isInstant": false,
     "isBad": false,
     "isBenefitical": true,
     "renderStatusInInventory": true,
-    "renderStatusInHUD": true
+    "renderStatusInHUD": false
   }
 }
