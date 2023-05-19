@@ -16,6 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.mcreator.awakening.network.OpenSSMessage;
 import net.mcreator.awakening.network.AuraactivationMessage;
 import net.mcreator.awakening.AwakeningMod;
 
@@ -39,6 +40,12 @@ public class AwakeningModKeyMappings {
 					if (event.getAction() == GLFW.GLFW_PRESS) {
 						AwakeningMod.PACKET_HANDLER.sendToServer(new AuraactivationMessage(0, 0));
 						AuraactivationMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+					}
+				}
+				if (event.getKey() == OPEN_SS.getKey().getValue()) {
+					if (event.getAction() == GLFW.GLFW_PRESS) {
+						AwakeningMod.PACKET_HANDLER.sendToServer(new OpenSSMessage(0, 0));
+						OpenSSMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 					}
 				}
 			}
